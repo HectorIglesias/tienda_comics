@@ -1,0 +1,60 @@
+main#novedades, main#mas-vendidos, main#clasicos, main#comics-antiguos{
+    display: flex;
+}
+aside{
+    margin: 10px 5px 7px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 15%;
+    background-color: beige;
+}
+#buscador_form_value{
+    margin: 0;
+    padding: 0;
+}
+#buscador_form p{
+    margin-bottom: 8px;
+}
+#comics{
+    width: 80%;
+    padding: 10px 15px;
+}
+#comics h2{
+    margin-top: 0.25em;
+    margin-bottom: 0.1em;
+}
+#pagina-1, #pagina-2, #pagina-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+#pagina-2, #pagina-3{
+    display: none;
+}
+.ficha-comic-container{
+    width: 49%;
+    display: flex;
+    margin: 15px 5px;
+}
+.ficha-comic-container img{
+    width: 30%;
+    height: fit-content;
+    cursor: pointer;
+}
+.ficha-comic-container .ficha-comic{
+    width: 70%;
+    margin: 0 5%;
+}
+#paginacion{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#paginacion a{
+    color: goldenrod;
+    text-decoration: none;
+    border: 2px solid goldenrod;
+    padding: 5px;
+    margin: 1%;
+}
+#paginacion a:hover{
+    background-color: #fa9ad9;
+}

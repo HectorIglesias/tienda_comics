@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mostrador_comics.css">
+    <link rel="stylesheet" href="css/galeria.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Comic Sans</a></h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="novedades.html">Novedades</a></li>
+                <li><a href="mas-vendidos.html">Más vendidos</a></li>
+                <li><a href="clasicos.html">Clásicos</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+                <li><a href="merchandising.html">Merchandising</a></li>
+                <li><a href="comics-antiguos.html">Cómic antiguos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="novedades">
+        <aside id="buscador">
+            <h3>Buscador</h3>
+            <form action="" id="buscador_form">
+                <label for="anio">Año de publicación: </label>
+                <input type="number" id="anio" name="anio" min="1930" max="2024"><br>
+                <label for="precio">Precio: </label>
+                <input type="range" id="precio" range="precio" min="5.00" max="25.00" step="0.01"><br>
+                <p id="buscador_form_value"></p>
+                <label for="editorial">Editorial: </label>
+                <select name="editorial" id="editorial">
+                    <option value="Marvel">Marvel</option>
+                    <option value="DC">DC</option>
+                    <option value="Planeta_Agostini">Planeta de Agostini</option>
+                    <option value="Planeta_Comic">Planeta Cómic</option>
+                    <option value="Otra">Otra</option>
+                </select>
+                <br>
+                <input type="submit" value="Buscar">
+            </form>
+        </aside>
+        <section id="comics">
+            <h2>Novedades</h2>
+            <div id="pagina-1">
+                <div id="comic-1" class="ficha-comic-container">
+                    <img src="img/batman-la-broma-asesina.jpg" alt="">
+                    <div class="ficha-comic">
+                        <h4>Batman La Broma Asesina</h4>
+                        <h3>14.25 €</h3>
+                        <h5>2024</h5>
+                        <p>Hay pocos enemigos tan acérrimos como Batman y el Joker. Ahora, el villano ha urdido un nuevo plan que pasa por secuestrar al comisario Gordon para humillarlo y destruirlo después de perjudicar a uno de sus seres más queridos. ¿Servirá como excusa para que el Caballero Oscuro y el Príncipe Pay...</p>
+                    </div>
+                </div>
+                <div id="comic-2" class="ficha-comic-container">
+                    <img src="img/batman-una-muerte-en-la-familia.jpg" alt="">
+                    <div class="ficha-comic">
+                        <h4>Batman. Una muerte en la familia</h4>
+                        <h3>21.85 €</h3>
+                        <h5>2024</h5>
+                        <p>Jason Todd es el nuevo Robin, pero hay algo que no va bien. El muchacho nota un desarraigo que solo superará cuando se reencuentre con su madre biológica. El problema es que el Joker va a meterse en esta historia familiar, y las consecuencias sacudirán para siempre los cimientos de la batfamilia....
+                        </p>
+                    </div>
+                </div>
+                <div id="comic-3" class="ficha-comic-container">
+                    <img src="img/civil-war.jpg" alt="">
+                    <div class="ficha-comic">
+                        <h4>Civil War</h4>
+                        <h3>14.25 €</h3>
+                        <h5>2020</h5>
+                        <p>Contiene Civil War 1-7 El Universo Marvel está cambiando. Es tiempo de elegir: ¿De qué lado estás? Un conflicto que se ha estado labrando durante años estalla al fin, rompiendo en dos a la comunidad superheroica, y enfrentando a...</p>
+                    </div>
+                </div>
+                <div id="comic-4" class="ficha-comic-container">
+                    <img src="img/el-asombroso-spiderman-1966-8.jpg" alt="">
+                    <div class="ficha-comic">
+                        <h4>El Asombroso Spiderman (1996)</h4>
+                        <h3>13.25 €</h3>
+                        <h5>2024</h5>
+                        <p>Es más que un cómic: es una máquina del tiempo. ¡Llegó el momento! Steve Ditko abandona Marvel y al trepamuros. Para sustituirlo, llega el más colosal de los artistas: ¡Es la irrupción de John Romita! Y con él, la verdadera identidad de El Duende Verde. Un relato que estremeció a generacio...</p>
+                    </div>
+                </div>
+            </div>
+            <div id="pagina-2">
+                <div id="comic-5" class="ficha-comic-container">
+                    <img src="img/el-batman-que-rie-1.jpg" alt="">
+                    <div class="ficha-comic">
+                        <h4>El Batman que ríe 1</h4>
+                        <h3>2.61 €</h3>
+                        <h5>2019</h5>
+                        <p>¡Nueva serie limitada! ¡Formato grapa mensual! Durante los eventos de Noches oscuras: Metal, Bruce Wayne y todos los héroes del Universo DC se vieron cara a cara con las malvadas versiones de Batman generadas por el Multiverso Oscuro. Aunque los héroes vencieron, la pesadilla no ha terminado. Ba...</p>
+                    </div>
+                </div>
+                <div id="comic-6" class="ficha-comic-container">
+                    <img src="img/la-muerte-de-superman.jpg" alt="">
+                    <div class="ficha-comic">
+                        <h4>La Muerte de Superman</h4>
+                        <h3>25.65 €</h3>
+                        <h5>2023</h5>
+                        <p>Un enemigo invencible recorre Estados Unidos y lo arrasa todo a su paso. Se llama Juicio Final, y su destino es la ciudad de Metropolis. El único hombre que es capaz de pararle los pies es Superman, pero ¿conseguirá la victoria aunque la mismísima Liga de la Justicia de América haya fracasado e...</p>
+                    </div>
+                </div>
+                <div id="comic-7" class="ficha-comic-container">
+                    <img src="img/lobezno-el-viejo-logan.jpg" alt="">
+                    <div class="ficha-comic">
+                        <h4>Lobezno El viejo Logan</h4>
+                        <h3>20.85 €</h3>
+                        <h5>2024</h5>
+                        <p>Una epopeya apocalíptica protagonizada por Lobezno en el mejor estilo de Mad Max que nos lleva varias décadas hacia el futuro. Nadie sabe qué ocurrió la noche en...
+                        </p>
+                    </div>
+                </div>
+                <div id="comic-8" class="ficha-comic-container">
+                    <img src="img/mortadelo-y-filemon-paris-2024-222.jpg" alt="">
+                    <div class="ficha-comic">
+                        <h4>Mortadelo y Filemón Paris 2024 222</h4>
+                        <h3>15.15 €</h3>
+                        <h5>2024</h5>
+                        <p>El Magos del Humor 222 es la última historieta que protagonizan los personajes más famosos del cómic español: Mortadelo y Filemón. Una aventura en los Juegos Olímpicos de París 2024: los agentes tienen que resolver un misterio que está poniendo en riesgo el evento deportivo más importante d...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="paginacion">
+                <a href="#pagina-1" onclick="cambiar_pagina(1)">1</a> <a href="#pagina-2" onclick="cambiar_pagina(2)">2</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Comic Sans. Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/formulario-buscador.js"></script>
+    <script src="js/abrir-imagen.js"></script>
+</body>
+</html>
